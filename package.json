@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "## Welcome all :point_right: Here you will learn all the topics of the TailwindCSS and hopefully you will be mastered on the TailwindCSS. I will be happy to teach you all you need to know about TailwindCSS. So let's dive in. :wink:",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}
