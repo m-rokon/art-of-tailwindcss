@@ -19,5 +19,122 @@
          -->
 
         <div class="w-32 h-20 p-8 my-4 border">Class 2</div>
+        <br />
+        <!-- width, height and border-->
+        <div class="h-48 border border-red-500 w-52">width and height</div>
+        <br />
+        <!-- padding -->
+        <div class="py-8">
+            <!-- padding in x axis -->
+            <div class="inline px-8 border">Padding</div>
+            <br /><br />
+            <!-- padding in y axis -->
+            <div class="inline-block py-12 border">Padding</div>
+            <br /><br />
+            <!-- padding in all side -->
+            <div class="inline-block p-6 border">Padding</div>
+        </div>
+        <!-- margin -->
+        <div class="my-8">
+            <!-- margin in x axis -->
+            <div class="inline-block p-6 mx-4 border">margin</div>
+            <hr />
+            <!-- margin in y axis -->
+            <div class="inline-block p-6 my-12 border">margin</div>
+            <hr />
+            <!-- margin in all side -->
+            <div class="inline-block p-6 m-6 border">margin</div>
+            <hr />
+            <!-- margin auto to make element center -->
+            <div class="w-48 p-6 mx-auto my-6 text-center border">margin</div>
+        </div>
+        <!-- space between -->
+        <div class="flex space-x-4">
+            <div class="p-3 border rounded-md">01</div>
+            <div class="p-3 border rounded-md">02</div>
+            <div class="p-3 border rounded-md">03</div>
+        </div>
+        <br />
+
+        <div class="flex flex-row-reverse space-x-4 space-x-reverse">
+            <div class="p-3 border rounded-md">01</div>
+            <div class="p-3 border rounded-md">02</div>
+            <div class="p-3 border rounded-md">03</div>
+        </div>
+        <br />
+
+        <!-- spacing -->
+        <div class="p-6 space-x-5 border">
+            <div class="inline-block p-3 border">Spacing</div>
+            <div class="inline-block p-3 border">Spacing</div>
+        </div>
+        <br />
+        <div class="p-6 space-y-4 border">
+            <div class="p-3 border">Spacing</div>
+            <div class="p-3 border">Spacing</div>
+        </div>
+        <br />
+        <!-- border and radius -->
+        <div class="w-32 h-20 mb-3 border">Border</div>
+        <div class="w-32 h-20 mb-3 border-4">Border width</div>
+        <div class="w-32 h-20 mb-3 border-2 border-black rounded-lg">
+            Border radius
+        </div>
+        <!-- ./end border -->
+        <br />
+        <!-- Outline -->
+        <div class="my-8 space-x-2">
+            <p class="mb-2">
+                <em>Default outline - press "tab" button in your keyboard</em>
+            </p>
+            <button
+                class="p-3 px-6 rounded-md"
+                style="background-color: rosybrown; color: white"
+            >
+                Outline
+            </button>
+            <button
+                class="p-3 px-6 rounded-md focus:outline-dashed"
+                style="background-color: rosybrown; color: white"
+            >
+                Outline
+            </button>
+            <button
+                class="p-3 px-6 rounded-md outline-2 outline-offset-2"
+                style="background-color: rosybrown; color: white"
+            >
+                Outline
+            </button>
+        </div>
+        <!-- Ring -->
+        <div class="my-8 space-x-3">
+            <p class="mb-2">
+                <em>Ring example - press "tab" button in your keyboard</em>
+            </p>
+            <button
+                class="p-3 px-6 rounded-md focus:outline-none focus:ring"
+                style="background-color: rosybrown; color: white"
+            >
+                Ring
+            </button>
+            <button
+                class="p-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-300"
+                style="background-color: aquamarine"
+            >
+                Ring
+            </button>
+            <button
+                class="p-3 px-6 rounded-md focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-rose-300"
+                style="background-color: rosybrown; color: white"
+            >
+                Ring
+            </button>
+            <button
+                class="p-3 px-6 rounded-md focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-cyan-300 focus:ring-rose-300"
+                style="background-color: rosybrown; color: white"
+            >
+                Ring
+            </button>
+        </div>
     </body>
 </html>
