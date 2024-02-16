@@ -7,105 +7,106 @@
         <link rel="stylesheet" href="./src/style.css" />
     </head>
     <body class="px-5 py-8">
-        <h2 class="text-4xl font-semibold text-center text-emerald-800">
-            Calss 5
+        <h2 class="text-4xl font-semibold text-center text-emerald-800 mb-6">
+            Calss 6
         </h2>
+        <a
+            href="./project/hero.html"
+            class="my-6 inline-block bg-rose-400 px-6 py-4 rounded-lg hover:bg-rose-500 transition duration-300"
+            >Hero section project</a
+        >
         <!-- Class 5 topics -->
         <!-- 
-            Typography
-            Custom font install
+            Backgrounds
+            Hero section project
          -->
-        <br />
-        <h2 class="text-7xl font-semibold">Heading 2</h2>
-        <p class="text-sm italic text-gray-500 hover:not-italic">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
 
-        <!-- <style>
-            h2 {
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
-                    sans-serif;
-                font-size: 24px;
-                font-weight: 700;
-            }
-        </style> -->
+        <div class="bg-rose-400 w-16 h-16"></div>
+        <div class="bg-purple-400 w-16 h-16">
+            <h2 class="font-black text-black">Bold text</h2>
+        </div>
+        <div class="bg-violet-600 w-16 h-16"></div>
+        <div class="bg-slate-400 w-16 h-16"></div>
 
-        <!-- font variant numeric -->
-        <p>1<sup>st</sup></p>
-        <p class="ordinal">1st</p>
-        <!-- 999.99654 9992/3 -->
-
-        <!-- Letter spacing -->
-        <h2 class="text-4xl font-semibold" style="letter-spacing: 2px">
-            Letter spacing
-        </h2>
-        <h2
-            class="text-4xl font-semibold tracking-wider leading-none"
-            style="line-height: 1.2em"
+        <!-- background image -->
+        <!-- old way -->
+        <div
+            class="w-full h-48 bg-slate-500 my-6 bg-center bg-no-repeat"
+            style="
+                background-image: url(https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                background-position: center;
+                background-repeat: no-repeat;
+            "
+        ></div>
+        <!-- modern way -->
+        <div
+            class="w-full bg-origin-content h-48 bg-slate-500 my-6 bg-left-bottom bg-no-repeat bg-[url(https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
+        ></div>
+        <!-- fixed, local, scroll -->
+        <div
+            class="w-full h-48 bg-slate-500 my-6 bg-left-bottom bg-no-repeat bg-local bg-[url(https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
         >
-            Letter spacing
-        </h2>
-        <br />
-        <h2
-            class="text-4xl font-semibold border border-rose-500 leading-loose tracking-wider"
+            <h2 class="text-4xl font-semibold">
+                Text on the top of the background.
+            </h2>
+        </div>
+        <!-- background size -->
+        <div
+            class="w-full h-48 bg-auto bg-slate-500 my-6 bg-center bg-no-repeat bg-local bg-[url(https://images.unsplash.com/photo-1707341517541-51cc055a6613?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
         >
-            Line Height
-        </h2>
-        <!-- list style image -->
-        <ul class="mx-auto w-full ml-10">
-            <li style="list-style-image: url(/img/info.png)">coffee</li>
-            <li class="list-image-[url(/img/info.png)] list-inside">milk</li>
-            <li>tea</li>
-            <li>banana</li>
-        </ul>
-
-        <!-- text align -->
-        <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            enim!
-        </p>
-        <a
-            href="#"
-            class="underline border-red-400 py-4 px-6 decoration-rose-500 decoration-wavy"
-            >example link</a
-        >
-        <br /><br />
-        <h4 class="text-2xl lowercase md:uppercase lg:normal-case">
-            Text transform Example
-        </h4>
-
-        <!-- text wrap -->
-        <div class="my-5 text-pretty">
-            <h3 class="text-3xl font-semibold text-balance">
-                Lorem ipsum dolor sit amet.
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                libero aliquid possimus explicabo architecto dolor quasi
-                laudantium accusantium temporibus hic iste ratione ipsum atque
-                ducimus, officiis quae incidunt? Animi, corrupti!
-            </p>
+            <h2 class="text-4xl text-white font-semibold">
+                Text on the top of the background.
+            </h2>
         </div>
 
-        <!-- Content -->
-        <div class="my-8">
-            <p class="before:content-['>'] before:text-red-400">
-                Lorem ipsum dolor sit amet.
-            </p>
+        <!-- gradient color -->
+        <div
+            class="mx-auto h-8 w-96 bg-gradient-to-r from-pink-600 to-teal-600"
+        ></div>
+        <!-- via gradient color -->
+        <div
+            class="my-6 mx-auto h-8 w-96 bg-gradient-to-r from-pink-600 via-rose-600 to-teal-600"
+        ></div>
+        <!-- gradient color position -->
+        <div
+            class="my-6 mx-auto h-8 w-96 bg-gradient-to-r from-pink-600 via-rose-600 to-teal-600 from-35% via-45% to-65%"
+        ></div>
+
+        <!-- background clip -->
+
+        <div
+            class="border-2 border-cyan-500 bg-clip-padding border-dashed my-6 mx-auto h-14 w-[600px] bg-gradient-to-r from-pink-600 to-teal-600"
+        >
+            <h2>Background clip</h2>
+        </div>
+        <div
+            class="border-2 border-cyan-500 bg-clip-content p-2 border-dashed my-6 mx-auto h-14 w-[600px] bg-gradient-to-r from-pink-600 to-teal-600"
+        >
+            <h2>Background clip</h2>
+        </div>
+        <!-- background origin -->
+        <div
+            class="border-2 border-cyan-500 relative p-2 bg-origin-content border-dashed my-6 mx-auto h-14 w-[600px] bg-gradient-to-r from-pink-600 to-teal-600"
+        >
+            <h2>Background clip</h2>
         </div>
 
-        <!-- font family -->
-        <h3 class="text-3xl font-sans font-medium">Font family</h3>
-        <br />
-        <em>custom font</em>
-        <h3 class="text-3xl font-[Kalam] font-medium">Font family</h3>
-        <br />
-        <em>auto suggest</em>
-        <h3 class="text-3xl font-kalam font-bold">Font family</h3>
-
-        <p class="font-kalam font-light">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta,
-            voluptas?
-        </p>
+        <!-- backgound clip - text -->
+        <div class="my-6">
+            <!-- bg image inside text -->
+            <h2
+                class="text-5xl font-bold text-rose-500 bg-clip-text text-transparent bg-no-repeat bg-cover bg-center bg-[url(https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
+            >
+                Hello gradient text
+            </h2>
+        </div>
+        <div class="my-6">
+            <!-- text with gradient color -->
+            <h2
+                class="text-5xl font-bold text-rose-500 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-violet-800 to-45%"
+            >
+                Hello gradient text
+            </h2>
+        </div>
     </body>
 </html>
