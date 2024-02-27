@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/style.css" />
+        <title>Navbar</title>
+    </head>
+    <body>
+        <nav class="w-full bg-slate-200 px-5 py-4">
+            <div class="container relative mx-auto">
+                <div class="flex items-center justify-between">
+                    <h2 class="font-kalam font-bold text-4xl">Logo</h2>
+                    <div
+                        id="nav-menu"
+                        class="absolute hidden md:block bg-rose-200 w-full top-14 left-0 md:relative md:bg-transparent md:top-auto md:left-auto"
+                    >
+                        <div
+                            class="flex flex-col md:flex-row md:items-end gap-4"
+                        >
+                            <div>
+                                <a
+                                    class="w-full inline-block px-4 py-2 hover:bg-slate-100"
+                                    href="#"
+                                    >item 1</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    class="w-full inline-block px-4 py-2 hover:bg-slate-100"
+                                    href="#"
+                                    >item 2</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    class="w-full inline-block px-4 py-2 hover:bg-slate-100"
+                                    href="#"
+                                    >item 3</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    class="w-full inline-block px-4 py-2 hover:bg-slate-100"
+                                    href="#"
+                                    >item 4</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    class="w-full inline-block px-4 py-2 hover:bg-slate-100"
+                                    href="#"
+                                    >item 5</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- mobile menu button -->
+                    <button class="md:hidden" id="nav-btn">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-6 h-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <script src="./navbar.js"></script>
+    </body>
+</html>
