@@ -588,12 +588,24 @@ video {
   position: relative;
 }
 
+.inset-0{
+  inset: 0px;
+}
+
 .left-0{
   left: 0px;
 }
 
 .top-0{
   top: 0px;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.bottom-0{
+  bottom: 0px;
 }
 
 .z-10{
@@ -731,8 +743,17 @@ video {
   border-radius: 0.375rem;
 }
 
+.border{
+  border-width: 1px;
+}
+
 .border-t{
   border-top-width: 1px;
+}
+
+.border-red-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(254 202 202 / var(--tw-border-opacity));
 }
 
 .border-t-gray-400{
