@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         kalam: ["Kalam", "cursive"]
+      },
+      transitionProperty: {
+        'ostad': 'ostad'
       }
     },
   },
