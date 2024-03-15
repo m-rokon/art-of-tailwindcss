@@ -628,6 +628,10 @@ video {
   height: 100vh;
 }
 
+.h-96{
+  height: 24rem;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -670,6 +674,10 @@ video {
   resize: vertical;
 }
 
+.snap-y{
+  scroll-snap-type: y var(--tw-scroll-snap-strictness);
+}
+
 .snap-both{
   scroll-snap-type: both var(--tw-scroll-snap-strictness);
 }
@@ -710,6 +718,14 @@ video {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.overflow-scroll{
+  overflow: scroll;
+}
+
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 
 .scroll-smooth{
