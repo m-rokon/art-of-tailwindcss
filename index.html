@@ -27,7 +27,7 @@
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-4 h-4"
+                        class="w-4 h-4 transition-all duration-300 ease-in-out"
                     >
                         <path
                             stroke-linecap="round"
@@ -37,8 +37,10 @@
                     </svg>
                 </div>
                 <!-- accordion content -->
-                <div class="p-4 border-t-slate-200 border-t accordion-text">
-                    <p class="text-lg font-light">
+                <div class="accordion-text max-h-0 overflow-hidden">
+                    <p
+                        class="text-lg font-light p-4 border-t-slate-200 border-t"
+                    >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Accusamus autem velit illo quia tempore alias, unde
                         fuga, nam harum voluptatibus eum quas? Ea soluta nisi
