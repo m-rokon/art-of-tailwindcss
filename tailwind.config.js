@@ -1,15 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./projects/**/*.{html, js}"],
+  content: ["./index.html", "./assets/**/*.js"],
   theme: {
     extend: {
-      fontFamily: {
-        kalam: ["Kalam", "cursive"]
-      },
-      transitionProperty: {
-        'ostad': 'ostad'
-      }
-    },
+    }
   },
   plugins: [],
 }
